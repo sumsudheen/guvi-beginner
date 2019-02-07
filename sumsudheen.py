@@ -1,7 +1,5 @@
-num = float(input())
-if num > 0:
-     print("Positive")
-elif num == 0:
-     print("zero")
-else :
-	 print("Negative")
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
